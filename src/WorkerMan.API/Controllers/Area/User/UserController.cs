@@ -53,7 +53,7 @@ namespace WorkerMan.API.Controllers.Area.User
         }
 
         [Authorize]
-        [HttpGet("user")]
+        [HttpGet("info")]
         public async Task<IActionResult> GetUserDetails([FromQuery] string email)
         {
             if (string.IsNullOrEmpty(email))
