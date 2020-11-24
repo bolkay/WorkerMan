@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
     paths-ignore: 
-      - "Desktop_Version/WorkerMan.Desktop"
+      - 'Desktop_Version/WorkerMan.Desktop/**'
 
 jobs:
   build:
