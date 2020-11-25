@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ master ]
     paths-ignore: 
-      - '/WorkerMan.Desktop.csproj'
+      - '/home/runner/work/WorkerMan/WorkerMan/src/Desktop_Version/WorkerMan.Desktop/WorkerMan.Desktop.csproj'
 
 jobs:
   build:
